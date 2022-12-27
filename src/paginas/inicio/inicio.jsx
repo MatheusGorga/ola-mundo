@@ -1,6 +1,6 @@
 import styles from './inicio.module.css';
 import posts from 'assets/json/posts.json';
-import CardPost from 'componentes/CardPost/Post';
+import CardPost from 'componentes/CardPost/CardPost';
 
 function Inicio() {
   return (

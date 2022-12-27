@@ -1,4 +1,4 @@
-import CardPost from 'componentes/CardPost/Post';
+import CardPost from 'componentes/CardPost/CardPost';
 import PaginaPadrao from 'componentes/PaginaPadrao/PaginaPadrao';
 import PostModelo from 'componentes/PostModelo/PostModelo';
 import NaoEncontrado from 'paginas/NaoEncontrado/NaoEncontrado';
