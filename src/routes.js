@@ -1,11 +1,11 @@
 import PaginaPadrao from 'componentes/PaginaPadrao/PaginaPadrao';
 import Rodape from 'componentes/Rodape/Rodappe';
 import ScrollToTop from 'componentes/ScrollTop/ScrollTop';
+import Inicio from 'paginas/Inicio/Inicio';
 import NaoEncontrado from 'paginas/NaoEncontrado/NaoEncontrado';
 import Post from 'paginas/Post/Post';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './componentes/Menu/Menu';
-import Inicio from './paginas/inicio/Inicio';
 import SobreMim from './paginas/SobreMim/SobreMim';
 
 function AppRoutes() {
@@ -19,18 +19,6 @@ function AppRoutes() {
           <Route path='sobremim' element={<SobreMim />} />
         </Route>
         <Route path='posts/:id' element={<Post />} />
-
-        {/* 
-            Na rota '/', a estrutura a ser renderizada é: 
-            <PaginaPadrao>
-              <Inicio/>
-            </PaginaPadrao>
-
-            Na rota '/sobreMim', a estrutura a ser renderizada é: 
-            <PaginaPadrao>
-              <SobreMim/>
-            </PaginaPadrao>
-        */}
 
         <Route path='*' element={<NaoEncontrado />} />
       </Routes>
