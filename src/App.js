@@ -1,12 +1,12 @@
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        ola mundo
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <h1> Ola mundo</h1>
+    </BrowserRouter>
+
+  )
 }
 
 export default App;
