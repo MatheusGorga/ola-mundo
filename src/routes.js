@@ -1,5 +1,6 @@
 import PaginaPadrao from 'componentes/PaginaPadrao/PaginaPadrao';
 import Rodape from 'componentes/Rodape/Rodappe';
+import NaoEncontrado from 'paginas/NaoEncontrado/NaoEncontrado';
 import Post from 'paginas/Post/Post';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './componentes/Menu/Menu';
@@ -29,7 +30,7 @@ function AppRoutes() {
             </PaginaPadrao>
         */}
 
-        <Route path='*' element={<div> Pagina não encontrada</div>} />
+        <Route path='*' element={<NaoEncontrado />} />
       </Routes>
       <Rodape />
 
