@@ -27,17 +27,16 @@
 
 .imagens>.minhaFoto {
   position: absolute;
-  right: 0;
+  right: 100px;
   bottom: 0;
-  width: 18vw;
+  width: 10vw;
   border-radius: 50%;
 }
 
 .imagens>.circuloColorido {
   position: absolute;
   right: 7vw;
-  bottom: 2.2vw;
-  width: 25vw;
+  width: 20vw;
 }
 
 @media (max-width: 1100px) {
