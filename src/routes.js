@@ -1,5 +1,6 @@
 import PaginaPadrao from 'componentes/PaginaPadrao/PaginaPadrao';
 import Rodape from 'componentes/Rodape/Rodappe';
+import ScrollToTop from 'componentes/ScrollTop/ScrollTop';
 import NaoEncontrado from 'paginas/NaoEncontrado/NaoEncontrado';
 import Post from 'paginas/Post/Post';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -10,6 +11,7 @@ import SobreMim from './paginas/SobreMim/SobreMim';
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
       <Routes>
         <Route path='/' element={<PaginaPadrao />}>
