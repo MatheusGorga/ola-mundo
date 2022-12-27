@@ -7,7 +7,7 @@ function CardPost({ post }) {
       <div className={styles.post}>
         <img
           className={styles.capa}
-          src={`/assets/fotos/${post.id}/capa.png`}
+          src={`/assets/posts/${post.id}/capa.png`}
           alt='teste'
         />
         <h2 className={styles.titulo}>{post.titulo}</h2>
