@@ -1,3 +1,4 @@
+import BotaoPrincipal from 'componentes/BotaoPrincipal/BotaoPrincipal';
 import { Link } from 'react-router-dom';
 import styles from './post.module.css';
 function CardPost({ post }) {
@@ -11,7 +12,7 @@ function CardPost({ post }) {
           alt='teste'
         />
         <h2 className={styles.titulo}>{post.titulo}</h2>
-        <button className={styles.botaoLer}>Ler</button>
+        <BotaoPrincipal>Ler</BotaoPrincipal>
       </div>
     </Link>
   );
